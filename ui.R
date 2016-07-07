@@ -1,3 +1,5 @@
+library(shiny)
+require(markdown)
 shinyUI(
     navbarPage("Probability of Death",
         tabPanel("Run App",
